@@ -46,7 +46,7 @@ export default function Contact() {
                     <input type="text" className="name" placeholder="Your Name" name="from_name" />
                     <input type="email" className="email" placeholder="Your E-mail" name="your_email" />
                     <textarea className="msg" name="message" rows="5" placeholder="Your Message"></textarea>
-                    <button type="submit" value="send" className="submitBtn">Submit</button>
+                    <button type="submit" value="send" className="glow-on-hover">Submit</button>
                     <div className="links">
                         <img src={facebookIcon} alt="Facbook" className="link" />
                         <img src={facebookIcon} alt="Facbook" className="link" />
