@@ -34,6 +34,7 @@
 }
 
 .skillBar {
+    position: sticky;
     display: flex;
     margin: 1rem;
     padding: 1.5rem 2rem;

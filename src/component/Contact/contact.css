@@ -48,6 +48,8 @@
 }
 
 .contactForm {
+    position: sticky;
+
     margin: 1rem;
     display: flex;
     flex-direction: column;
@@ -68,7 +70,7 @@
     color: white;
     border: none;
     border-radius: 0.5rem;
-    background: rgb(40, 40, 40);
+    background: #111;
     margin-bottom: 1rem;
 }
 

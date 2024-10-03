@@ -8,6 +8,18 @@ import Footer from "./component/Footer/footer";
 function App() {
   return (
     <div className="App">
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
       <Navbar />
       <Intro />
       <Skills />
