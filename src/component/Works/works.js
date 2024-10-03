@@ -4,6 +4,12 @@ import vactalsLogo from "../../assets/vactalsLogo.svg";
 import vactals1 from "../../assets/vactalsBanner1.svg";
 import vactals2 from "../../assets/vactalsBanner2.svg";
 import vactals3 from "../../assets/vactalsBanner3.svg";
+import owner1 from "../../assets/ownerBanner1.svg";
+import owner2 from "../../assets/ownerBanner2.svg";
+import owner3 from "../../assets/ownerBanner3.svg";
+import pms1 from "../../assets/pmsBanner1.svg";
+import pms2 from "../../assets/pmsBanner2.svg";
+import pms3 from "../../assets/pmsBanner3.svg";
 import play from "../../assets/play.svg";
 
 const Works = () => {
@@ -76,9 +82,9 @@ const Works = () => {
                             </div>
                             <h5>Screenshots</h5>
                             <div className="screenShots">
-                                <img src={vactals1} alt="Home" className="span1" />
-                                <img src={vactals2} alt="Bookings" className="span2" />
-                                <img src={vactals3} alt="Maps" className="span3" />
+                                <img src={owner1} alt="Home" className="span1" />
+                                <img src={owner2} alt="Bookings" className="span2" />
+                                <img src={owner3} alt="Maps" className="span3" />
 
                             </div>
                         </div>
@@ -107,9 +113,9 @@ const Works = () => {
                             </div>
                             <h5>Screenshots</h5>
                             <div className="screenShots">
-                                <img src={vactals1} alt="Home" className="span1" />
-                                <img src={vactals2} alt="Bookings" className="span2" />
-                                <img src={vactals3} alt="Maps" className="span3" />
+                                <img src={pms1} alt="Home" className="span1" />
+                                <img src={pms2} alt="Bookings" className="span2" />
+                                <img src={pms3} alt="Maps" className="span3" />
 
                             </div>
                         </div>
