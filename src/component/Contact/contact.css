@@ -69,6 +69,7 @@
     border: none;
     border-radius: 0.5rem;
     background: rgb(40, 40, 40);
+    margin-bottom: 1rem;
 }
 
 .submitBtn {
@@ -80,6 +81,7 @@
 }
 
 .links {
+    margin-top: 2rem;
     display: flex;
     flex-wrap: wrap;
 }

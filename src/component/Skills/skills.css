@@ -53,6 +53,23 @@
 .skillBarText>p {
     font-size: 0.85rem;
     font-weight: 200;
+    margin-bottom: 1rem;
+
+}
+
+.showMoreText {
+    font-size: 0.85rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+
+}
+
+.showMoreTextClickable {
+    font-size: 0.85rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    color: aqua;
+    cursor: pointer;
 
 }
 
