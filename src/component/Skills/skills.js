@@ -1,8 +1,8 @@
 import React from "react";
 import './skills.css';
 import UIDesign from "../../assets/ui-ux.png";
-import webDesign from "../../assets/web-design.png";
-import appDesign from "../../assets/app-design.png";
+import webDesign from "../../assets/react.png";
+import appDesign from "../../assets/flutter.png";
 import api from "../../assets/api.png";
 
 const Skills = () => {
@@ -16,13 +16,13 @@ const Skills = () => {
                 With my strong leadership skills, I have the ability to lead the mobile team effectively and drive innovation in mobile app development projects, I'm dedicated to sculpting innovative, user-centric solution that breathe life into every pixel.
             </span>
             <div className="skillBars">
-                <div className="skillBar">
+                {/* <div className="skillBar">
                     <img src={UIDesign} alt="UIDesign" className="skillBarImg" />
                     <div className="skillBarText">
                         <h2>UI/UX Design</h2>
                         <p>ui ux design applications with demo</p>
                     </div>
-                </div>
+                </div> */}
                 <div className="skillBar">
                     <img src={webDesign} alt="webDesign" className="skillBarImg" />
                     <div className="skillBarText">

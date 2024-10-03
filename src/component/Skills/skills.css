@@ -38,13 +38,14 @@
     margin: 1rem;
     padding: 1.5rem 2rem;
     border-radius: 0.5rem;
-    background: rgb(50, 50, 50);
+    background: #111;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.5);
 }
 
 .skillBarImg {
     object-fit: contain;
-    height: 3rem;
-    width: 3rem;
+    height: 4rem;
+    width: 4rem;
     margin-right: 2rem;
 
 }
