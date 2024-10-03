@@ -1,6 +1,6 @@
 import React from "react";
 import './skills.css';
-import UIDesign from "../../assets/ui-ux.png";
+// import UIDesign from "../../assets/ui-ux.png";
 import webDesign from "../../assets/react.png";
 import appDesign from "../../assets/flutter.png";
 import api from "../../assets/api.png";

@@ -4,7 +4,6 @@ import vactalsLogo from "../../assets/vactalsLogo.svg";
 import vactals1 from "../../assets/vactalsBanner1.svg";
 import vactals2 from "../../assets/vactalsBanner2.svg";
 import vactals3 from "../../assets/vactalsBanner3.svg";
-import api from "../../assets/api.png";
 import play from "../../assets/play.svg";
 
 const Works = () => {
@@ -65,7 +64,7 @@ const Works = () => {
                             <p>Mobile application for holiday home owners, focusing on property management, guest communication, and expense reporting.</p>
 
                         </div>
-                        <div className="details" style={{ display: showProjectDetails.id == "vactals2" ? showProjectDetails.dis ? 'flex' : 'none' : 'none' }}>
+                        <div className="details" style={{ display: showProjectDetails.id === "vactals2" ? showProjectDetails.dis ? 'flex' : 'none' : 'none' }}>
                             <h5>Technologies</h5>
                             <div className="tech">
                                 <button class="button-85" role="button">Flutter</button>
@@ -96,7 +95,7 @@ const Works = () => {
                             <p>Mobile application version of the Property Management System (PMS) to provide holiday home owners with on-the-go management capabilities.</p>
 
                         </div>
-                        <div className="details" style={{ display: showProjectDetails.id == "vactals3" ? showProjectDetails.dis ? 'flex' : 'none' : 'none' }}>
+                        <div className="details" style={{ display: showProjectDetails.id === "vactals3" ? showProjectDetails.dis ? 'flex' : 'none' : 'none' }}>
                             <h5>Technologies</h5>
                             <div className="tech">
                                 <button class="button-85" role="button">Flutter</button>

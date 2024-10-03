@@ -1,8 +1,8 @@
 import React, { useRef, useState } from "react";
 import emailjs from '@emailjs/browser';
 import './contact.css';
-import facebook from "../../assets/facebook.png";
-import facebookIcon from "../../assets/facebookIcon.png";
+// import facebook from "../../assets/facebook.png";
+// import facebookIcon from "../../assets/facebookIcon.png";
 export default function Contact() {
     const [name, setName] = useState('');
     const [email, setEmail] = useState('');
@@ -10,18 +10,18 @@ export default function Contact() {
     const form = useRef();
     const sendEmail = (e) => {
         e.preventDefault();
-        if (name == '' && email == '' && message == '') {
+        if (name === '' && email === '' && message === '') {
             alert("Please Make sure to enter All input Field.!");
 
         }
-        else if (name == '') {
+        else if (name === '') {
             alert("Please Make sure to enter Your Name.!");
 
-        } else if (email == '') {
+        } else if (email === '') {
             alert("Please Make sure to enter Your E-mail.!");
 
         }
-        else if (message == '') {
+        else if (message === '') {
             alert("Please Make sure to enter Your Message.!");
         }
         else {
